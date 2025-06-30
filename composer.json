@@ -1,0 +1,27 @@
+{
+  "name": "haladigitally/basitbot",
+  "description": "PHP package to send messages using BasitBot API",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brahim labdaa",
+      "email": "brahimlabdaa13@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Haladigitally\\Basitbot\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "extra": {
+        "laravel": {
+            "providers": [
+                "Haladigitally\\Basitbot\\BasitbotServiceProvider"
+            ]
+        }
+    }
+}
